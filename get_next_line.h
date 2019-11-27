@@ -6,7 +6,7 @@
 /*   By: victor <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/20 14:23:55 by victor            #+#    #+#             */
-/*   Updated: 2019/11/22 18:25:49 by victor           ###   ########.fr       */
+/*   Updated: 2019/11/26 17:10:32 by viporten         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 #include <stdlib.h>
 
 
+int	get_next_line(int fd, char **line);
 char	*ft_strnew(int size);
 char	*ft_strdup(char *s1);
 char	*ft_substr(char *s, int start, int len);
