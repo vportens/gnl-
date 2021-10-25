@@ -6,7 +6,7 @@
 /*   By: victor <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/20 14:23:55 by victor            #+#    #+#             */
-/*   Updated: 2019/11/26 17:10:32 by viporten         ###   ########.fr       */
+/*   Updated: 2021/10/25 15:37:52 by laclide          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,8 @@
 # define GET_NEXT_LINE_H
 
 #include <unistd.h>
-#include <limits.h>
 #include <stdlib.h>
 
-
 int	get_next_line(int fd, char **line);
-char	*ft_strnew(int size);
-char	*ft_strdup(char *s1);
-char	*ft_substr(char *s, int start, int len);
-char	*ft_strchr(char *s, int c);
-char		*ft_strjoin(char *s1, char *s2);
 
 #endif

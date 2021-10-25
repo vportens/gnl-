@@ -40,7 +40,5 @@ int main(int argc, char **argv)
 		close(fd);
 	}
     free(buff);
-	//while (1)
-	//;
 	return (0);
 }
