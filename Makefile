@@ -10,8 +10,8 @@ LIBFT =
 
 FLAGS 	= -Wall -Wextra
  
-SRCS = gnl_recusif.c		\
-	   main.c
+SRCS = src/gnl_recusif.c		\
+	   src/main.c
 
 SRCS_BONUS =	
  

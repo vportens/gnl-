@@ -6,7 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 CC	Makefile	/^CC 		= gcc$/;"	m
 FLAGS	Makefile	/^FLAGS 	= -Wall -Wextra$/;"	m
-GET_NEXT_LINE_H	get_next_line.h	/^# define GET_NEXT_LINE_H$/;"	d
+GET_NEXT_LINE_H	include/get_next_line.h	/^# define GET_NEXT_LINE_H$/;"	d
 LIBFT	Makefile	/^LIBFT = $/;"	m
 MAC	Makefile	/^MAC = $/;"	m
 MAC_B	Makefile	/^MAC_B = $/;"	m
@@ -16,9 +16,9 @@ OBJ	Makefile	/^OBJ 	= ${SRCS:.c=.o}$/;"	m
 OBJS	Makefile	/^OBJS 	= *.o$/;"	m
 OBJS_B	Makefile	/^OBJS_B = *.o$/;"	m
 OBJ_B	Makefile	/^OBJ_B = ${SRCS_BONUS:.c=.o}$/;"	m
-SRCS	Makefile	/^SRCS = gnl_recusif.c		\\$/;"	m
+SRCS	Makefile	/^SRCS = src\/gnl_recusif.c		\\$/;"	m
 SRCS_BONUS	Makefile	/^SRCS_BONUS =	$/;"	m
-get_next_line	gnl_recusif.c	/^int	get_next_line(int fd, char **line)$/;"	f
-line_init	gnl_recusif.c	/^static int	line_init(char **line, int offset, int res)$/;"	f	file:
-main	main.c	/^int main(int argc, char **argv)$/;"	f
-recursive_gnl	gnl_recusif.c	/^static int	recursive_gnl(char **line, int fd, int offset)$/;"	f	file:
+get_next_line	src/gnl_recusif.c	/^int	get_next_line(int fd, char **line)$/;"	f
+line_init	src/gnl_recusif.c	/^static int	line_init(char **line, int offset, int res)$/;"	f	file:
+main	src/main.c	/^int main(int argc, char **argv)$/;"	f
+recursive_gnl	src/gnl_recusif.c	/^static int	recursive_gnl(char **line, int fd, int offset)$/;"	f	file:

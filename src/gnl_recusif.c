@@ -6,11 +6,11 @@
 /*   By: viporten <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/07 14:54:11 by viporten          #+#    #+#             */
-/*   Updated: 2021/10/25 15:38:38 by laclide          ###   ########.fr       */
+/*   Updated: 2021/10/25 16:01:06 by laclide          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../include/get_next_line.h"
 
 static int	line_init(char **line, int offset, int res)
 {
