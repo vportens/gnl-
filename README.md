@@ -1,6 +1,7 @@
-# gnl
+# Get Next Line
 
-Fonction qui lit ligne par ligne un fichier
+### Suject : gnl.subject.pdf 
+## Fonction qui lit ligne par ligne un fichier
 
 | Prototype | int get_next_line(int fd, char **line); |
 | --- | --- |
